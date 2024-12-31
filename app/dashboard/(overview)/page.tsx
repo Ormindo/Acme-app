@@ -2,7 +2,7 @@ import RevenueChart from '../../ui/dashboard/revenue-chart'
 import LatestInvoices from '../../ui/dashboard/latest-invoices'
 import { lusitana } from '@/app/ui/fonts'
 import { Suspense } from 'react'
-import { RevenueChartSkeleton, LatestInvoicesSkeleton, CardSkeleton } from '@/app/ui/skeletons'
+import { RevenueChartSkeleton, LatestInvoicesSkeleton } from '@/app/ui/skeletons'
 import CardWrapper from '@/app/ui/dashboard/cards'
 
 export default async function Page() {
